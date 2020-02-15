@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Prescription Upload Website to Read Your Prescription!</h1>
+  <p>We hope this project can help people who have dificulties to see prescriptions clearly (seniors, near-sighted seniors)</p>
+  <h2>Upload Prescription by Taking a Photo on your Device!</h2>
+  <form enctype="multipart/form-data" method="post">
+    {% csrf_token %}
+    <input type = "file" name ="document">
+    <button type = "submit"> Upload File</button>
+</form>
+{% endblock %}
