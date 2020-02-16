@@ -1,0 +1,65 @@
+<!-- In this project, we'll make a Web page for the current exhibit at 
+the Manetti Shrem museum, "Wayne Thiebald: 1958-1968". The goal is to 
+develop some front-end skills in using CSS to make responsive designs 
+that work well on a variety of screen sizes, and to practice working with a designer. 
+//-->
+
+<!doctype HTML>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Medreader Treehack</title>
+<link rel="stylesheet" type="text/css" href="mr.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,700" rel="stylesheet"> 
+</head>
+
+<body>
+
+<header>
+    <div class="name">
+        <h1 class="title">Medreader</h1>
+    </div>
+    <div class="d1">
+        <a href="#button2">What?</a>
+    </div>
+    <div class="d2">
+        <a href="#button3">Why?</a>
+    </div>
+    <div class="d3">
+        <a href="#button4">How?</a>
+    </div>
+    <div class="link">
+        <a href="#button1">Try us</a>
+    </div>
+</header>
+
+<main>
+    <div class="picture">
+        <img src="ExampleImg.jpg" alt="picture of Joy" class="picture">
+    </div>
+    <div class="what" id="button2">
+        <p>Description of what?</p>
+    </div>
+    <div class="why" id="button3">
+        <p>Description of why?</p>
+    </div>
+    <div class="how" id="button4">
+        <p>How?</p>
+    </div>
+    <div class="submit" id="button1">
+        <form enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+            <input type = "file" name ="document">
+            <button type = "submit">Upload File</button>
+        </form>
+    </div>
+</main>
+
+
+<footer>
+
+</footer>
+
+</body>
+</html>
