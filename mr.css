@@ -1,0 +1,102 @@
+body {
+  color:#6C2E2F;
+  background-color: #FFFFFF;
+  font-family:'Montserrat';
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 35px;
+}
+header{
+  color:#FFFFFF;
+  background-color: #E8AB9E;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+}
+div.name{
+  display:flex;
+  margin:1% 1%;
+  flex: 1 1 60%
+}
+div.d1{
+  display:flex;
+  margin:1% 1%;
+  flex: 1 1 60%
+}
+div.d2{
+  display:flex;
+  margin:1% 1%;
+  flex: 1 1 60%
+}
+div.d3{
+  display:flex;
+  margin:1% 1%;
+  flex: 1 1 60%
+}
+div.link{
+  display:flex;
+  margin:1% 1%;
+  flex: 1 1 60%
+}
+h1{
+  font-size: inherit;
+}
+footer{
+  width:100%;
+  color:#FFFFFF;
+  background-color: #E8AB9E;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+div.picture{
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  display: block;
+  width: 100%;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+  display: block;
+  margin: auto;
+  font-size: inherit;
+  font-weight: bold;
+}
+div.what{
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.why{
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.how{
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.submit{
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
