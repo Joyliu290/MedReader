@@ -1,4 +1,4 @@
-# Medreader
+# MedReader
 ## Inspiration
 To help patients, the elderly population and those with vision impairments and/or reading difficulties better understand and remember their medical and prescription information from both electronic and handwritten documentation.
 
