@@ -8,6 +8,7 @@ from imageToText import detect_text
 import sys
 from .models import PhotoUploader
 from PIL import Image
+import os
 
 
 # Create your views here.

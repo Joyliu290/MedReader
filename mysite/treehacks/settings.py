@@ -1,3 +1,4 @@
+import os
 PROJECT_DIR  = "C:\\Users\\Sahana Upadhya\\TreeHacks\\Treehacks\\mysite\treehacks"
 
 STATIC_URL = '/static/'
