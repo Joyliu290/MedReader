@@ -1,0 +1,65 @@
+{% block content %}
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../static/css/app_template.css">
+
+
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Medreader Treehack</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,700" rel="stylesheet"> 
+</head>
+
+<body>
+
+<header>
+    <div class="name">
+        <h1 class="title">Medreader</h1>
+    </div>
+    <div class="d1">
+        <a href="#button2">What</a>
+    </div>
+    <div class="d2">
+        <a href="#button3">Why</a>
+    </div>
+    <div class="d3">
+        <a href="#button4">How</a>
+    </div>
+    <div class="link">
+        <a href="#button1">Try it</a>
+    </div>
+</header>
+
+<main>
+    <div class="picture">
+        <img src="../static/img/image1.jpg" alt="picture of Joy" class="picture">
+    </div>
+    <div class="what" id="button2">
+        <p>An assistive digital tool using text-to-speech technology to read aloud prescription and medical record information. Using MediReader, take or upload a picture of your medical record or prescription, and the text will be coverted to an audio recording that will be played back to the user.</p>
+    </div>
+    <div class="why" id="button3">
+        <p>It is built to enhance patient care by helping patients, the elderly population and those with vision impairments and/or reading difficulties understand or remember their medical prescription information.</p>
+    </div>
+    <div class="how" id="button4">
+        <p>Using Optical Character Recognition and text-to-speech technology medical prescription information can be extracted and converted to audio messages for users.</p>
+    </div>
+    <div class="submit" id="button1">
+        <form enctype="multipart/form-data" method="post">
+            <input type = "file" name ="document">
+            <button type = "submit">Upload File</button>
+        </form>
+    </div>
+</main>
+
+
+<footer>
+
+</footer>
+
+</body>
+</html>
+{% endblock %}
