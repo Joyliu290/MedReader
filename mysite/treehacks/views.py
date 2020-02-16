@@ -28,6 +28,6 @@ def upload_image(request):
         # perhaps look into using generator for this? since it will be a large number of text, and ideally don't want to use memory
         # to store it
         
-        return render(request, 'index3.html')
+        return render(request, 'index2.html')
     else:
-        return render(request, "index3.html")
+        return render(request, "index2.html")
