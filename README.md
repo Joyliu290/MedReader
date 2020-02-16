@@ -17,7 +17,7 @@ We are proud that we learned how to combine multiple Google Cloud machine learni
 ## What I learned
 We refined our skills in front-end development.
 
-## What's next for medreader
+## What's next for MedReader
 Future work would focus on refining detection of specific medical and prescription data related to dosage and usage and exclude all other information on reports or prescriptions. To preserve patient privacy, we will also incorporate functionality to detect and anonymize all personal patient information in a given image at the time of upload. Moreover, we plan to sync the extracted audio recording with the phone calendar to set both audio and text medication reminders for users and add support for multiple languages.
 
 
